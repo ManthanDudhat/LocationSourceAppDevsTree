@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStopTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_solid_color_primary_100"
+        android:paddingHorizontal="@dimen/dp_15"
+        android:paddingVertical="@dimen/dp_6"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_12"
+        android:translationZ="@dimen/dp_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Stop 1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivDestinationPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintEnd_toEndOf="@id/tvStopTitle"
+        app:layout_constraintStart_toStartOf="@id/tvStopTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvStopTitle"
+        app:srcCompat="@drawable/ic_marker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
