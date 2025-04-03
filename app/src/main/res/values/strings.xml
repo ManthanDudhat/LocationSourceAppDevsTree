@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Location Source</string>
+    <string name="splash_location_source">Location source</string>
+
+    <string name="label_locations">Locations</string>
+    <string name="label_save_new_selected_address">Save new selected address?</string>
+    <string name="label_primary">Primary</string>
+    <string name="label_delete_location">Delete Location</string>
+    <string name="hint_search">Search</string>
+
+    <string name="dialog_label_delete_location">Are you sure you want to delete this location?</string>
+    <string name="dialog_label_delete">Delete</string>
+    <string name="dialog_label_cancel">Cancel</string>
+
+    <string name="btn_path">Path</string>
+    <string name="btn_add_poi">Add POI</string>
+    <string name="btn_sort">Sort</string>
+    <string name="btn_save">Save</string>
+
+    <string name="validation_primary_location">Primary location can be deleted only if it\'s the last one</string>
+    <string name="validation_please_add_2_or_more_locations">Please add 2 or more locations</string>
+
+</resources>

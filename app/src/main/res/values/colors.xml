@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#00d47e</color>
+    <color name="textColor">#1D1D1F</color>
+    <color name="pathColor">#00d47e</color>
+    <color name="colorGray">#EFEFEF</color>
+    <color name="colorButtonGreen">#01492C</color>
+    <color name="color_bg_location">#F8F3F3</color>
+    <color name="bg_color">@color/colorPrimary</color>
+    <color name="row_address_bg_color">#1A223344</color>
+    <color name="colorDivider">#264426</color>
+    <color name="color_bg_edittext">#E1EEEF</color>
+
+</resources>
